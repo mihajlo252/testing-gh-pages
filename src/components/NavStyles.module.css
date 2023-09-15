@@ -1,0 +1,24 @@
+.navlink {
+  position: relative;
+}
+.navlink::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left ;
+  width: 100%;
+  height: 3px;
+  background-color: #eaeaea;
+  transition: transform 250ms ease-in-out;
+  border-radius: 50vh;
+}
+
+.navlink:hover::after {
+  transform: scaleX(1);
+}
+
+.navlink[aria-current="page"]::after {
+  transform: scaleX(1);
+}
