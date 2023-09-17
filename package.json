@@ -1,5 +1,4 @@
 {
-  "homepage": "http://mihajlo252.github.io/marko-portfolio-temp/",
   "name": "marko-portfolio-temp",
   "private": true,
   "version": "1.0.0",
@@ -9,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server": "node public/getmarkdown.js --commonjs"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-pdf-viewer/thumbnail": "^3.12.0",
