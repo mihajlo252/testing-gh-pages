@@ -5,7 +5,6 @@ import { LuMenu } from "react-icons/lu";
 
 export const Navbar = () => {
 
-
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const handleToggleMenu = (e) => {
@@ -15,11 +14,11 @@ export const Navbar = () => {
 
   return (
     <div className="bg-base-100 w-full min-h-16 items-center grid grid-cols-[1fr_1fr] px-32 pt-14 relative overflow-x-hidden">
-      <h1
+      {/* <h1
         className={`normal-case text-4xl w-max font-bold text-[#eaeaea]`}
-      >
-        Marko Stefanović
-      </h1>
+      > */}
+        <img src="/logo.svg" alt="" className="w-20" />
+      {/* </h1> */}
       <button
         className="btn btn-ghost place-self-end p-0 z-10"
         type="button"

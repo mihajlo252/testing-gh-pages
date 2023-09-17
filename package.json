@@ -1,7 +1,8 @@
 {
-  "name": "test-vrabac-portfolio",
+  "homepage": "http://mihajlo252.github.io/marko-portfolio-temp/",
+  "name": "marko-portfolio-temp",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
     "markdown-to-jsx": "^7.3.2",
     "postcss": "^8.4.27",
     "react-icons": "^4.10.1",
