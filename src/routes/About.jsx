@@ -47,7 +47,7 @@ export const About = () => {
           <div className="relative">
             {/* Izmeniti src i alt po potrebi */}
             <img
-              src="cv/cv_example.png"
+              src="assets/cv/cv_example.png"
               className="max-w-sm rounded-lg shadow-2xl"
               alt="CV Example"
             />
@@ -55,7 +55,7 @@ export const About = () => {
           </div>
           {/* href je path do fajla, a download je samo ime fajla kad ga downloadujes */}
           <a
-            href={`cv/cv_example.pdf`}
+            href={`assets/cv/cv_example.pdf`}
             download="CV Marko Stefanovic.pdf"
             className="btn btn-primary"
           >

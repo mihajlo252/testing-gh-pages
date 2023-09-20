@@ -17,7 +17,7 @@ export const CvModal = () => {
           className="modal-box"
         >
           {/* Izmeniti src i alt po potrebi */}
-          <img src="cv/cv_example.png" alt="CV Example" />
+          <img src="assets/cv/cv_example.png" alt="CV Example" />
           <div className="modal-action scale-100">
             <button className="btn" aria-label="Close Button">Close</button>
           </div>
