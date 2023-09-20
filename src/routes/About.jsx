@@ -55,7 +55,7 @@ export const About = () => {
           </div>
           {/* href je path do fajla, a download je samo ime fajla kad ga downloadujes */}
           <a
-            href={`/cv/cv_example.pdf`}
+            href={`cv/cv_example.pdf`}
             download="CV Marko Stefanovic.pdf"
             className="btn btn-primary"
           >
