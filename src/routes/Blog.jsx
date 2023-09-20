@@ -5,7 +5,7 @@ export const Blog = () => {
   const [fileNameList, setFileNameList] = useState([]);
   
   const getMarkdownMetadata = async () => {
-    const res = await fetch("marko-portfolio-temp/markdownMetadata.json");
+    const res = await fetch("/markdownMetadata.json");
     const { ...resList } = await res.json();
     return Object.values(resList);
   };
