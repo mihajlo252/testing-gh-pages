@@ -14,7 +14,7 @@ Delectus similique, tenetur explicabo porro asperiores, pariatur veniam fugit, c
 Aliquam, necessitatibus amet, quos adipisci consequuntur vel, minima corporis blanditiis facere minus delectus itaque neque hic ipsum. Minus nihil, quos reiciendis repellat necessitatibus a repudiandae aliquam corporis enim rem voluptatibus?
 Iusto adipisci mollitia porro magni consequuntur. Sint repudiandae omnis, quae at ab eaque mollitia harum eum provident eos laudantium, nemo ea, numquam minima deserunt saepe dolore veniam cupiditate quos doloribus?
 
-![Forrest](../images/forrest.jpg)
+![Forrest](..assets/images/forrest.jpg)
 
 Ipsam esse similique dolorum libero eaque animi quidem blanditiis eos dicta assumenda et cumque rem, recusandae quae obcaecati officia laudantium nesciunt ullam. Nostrum molestias dolor rem sunt nemo ea vel!
 Provident illum natus voluptas perspiciatis similique corrupti ut cumque, maiores libero esse fugit architecto earum quia nobis. Aliquam in animi modi laboriosam perferendis, earum sequi eveniet illum incidunt corrupti praesentium.
