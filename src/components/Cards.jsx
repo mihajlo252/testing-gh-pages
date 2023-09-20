@@ -18,7 +18,7 @@ export const Cards = ({ posts }) => {
             <img
               loading="lazy"
               rel="preload"
-              src={`marko-portfolio-temp/images/${post.previewImage}`}
+              src={`images/${post.previewImage}`}
               alt={post.title}
               className=" w-full max-h-full object-cover"
             />

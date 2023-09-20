@@ -47,7 +47,7 @@ export const About = () => {
           <div className="relative">
             {/* Izmeniti src i alt po potrebi */}
             <img
-              src="marko-portfolio-temp/cv/cv_example.png"
+              src="cv/cv_example.png"
               className="max-w-sm rounded-lg shadow-2xl"
               alt="CV Example"
             />
