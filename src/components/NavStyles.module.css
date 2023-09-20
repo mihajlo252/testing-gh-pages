@@ -4,7 +4,14 @@
 
 .navlink {
   position: relative;
+  transform: translateY(0);
 }
+
+.navlink:last-of-type {
+  transition: transform var(--transition);
+  transition-delay: 50ms;
+}
+
 .navlink::after {
   content: "";
   position: absolute;
@@ -29,7 +36,6 @@
 
 .menu {
   transition: var(--transition);
-  transform: translateX(0);
   margin-right: 10rem;
 }
 
@@ -38,6 +44,9 @@
 }
 
 .menu[data-toggle="false"] {
-  transform: translateX(100%);
   opacity: 0;
+}
+
+.menu[data-toggle="false"] .navlink {
+  transform: translateY(-50%)
 }
