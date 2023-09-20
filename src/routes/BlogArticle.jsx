@@ -9,7 +9,7 @@ export const BlogArticle = () => {
   const [markdown, setMarkdown] = useState("");
   const fetchMarkdown = async () => {
     try {
-      const response = await fetch(`/markdown/${post.file}`);
+      const response = await fetch(`assets/markdown/${post.file}`);
       //   console.log(await response.text());
       setMarkdown(await response.text());
     } catch (error) {
