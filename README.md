@@ -6,12 +6,3 @@
  - U public/markdownMetadata.json dodajes sve o markdown-u sto je potrebno (title, file, previewImage, previewText, author, date)
 
  Za sve ovo imas primere koje samo treba da obrises nakon sto ubacis svoje prave fajlove
-
-
-# TODO:
-
-- Figure out what to do with the static assets
-- Center the card button
-- Hamburger menu
-- Next page
-- Configure for smaller screen sizes (laptop, smartphone etc.)
