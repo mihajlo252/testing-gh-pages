@@ -40,7 +40,7 @@ export const Cards = ({ posts }) => {
                 }}
                 aria-label="Read more"
               >
-                read more
+                Read More
               </Link>
             </div>
           </div>
