@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mrcco.github.io/about",
-  "name": "about",
+  "homepage": "https://mihajlo252.github.io/",
+  "name": "marko-portfolio-temp",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -16,6 +16,7 @@
   "dependencies": {
     "@react-pdf-viewer/thumbnail": "^3.12.0",
     "react": "^18.2.0",
+    "react-burger-icons": "^1.1.8",
     "react-dom": "^18.2.0",
     "react-router": "^6.15.0",
     "react-router-dom": "^6.15.0"

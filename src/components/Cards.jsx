@@ -10,7 +10,7 @@ export const Cards = ({ posts }) => {
           : posts.length === 2
           ? "min-[1450px]:grid-cols-2"
           : "min-[1450px]:grid-cols-3"
-      } lg:grid-cols-2 md:grid-cols-1 gap-6 max-w-[80%] place-self-center`}
+      } lg:grid-cols-2 md:grid-cols-1 gap-6 px-[5%] max-[800px]:px-[10%] place-self-center`}
     >
       {posts.map((post, idx) => (
         <div key={idx} className="card bg-base-100 shadow-xl">
@@ -18,7 +18,7 @@ export const Cards = ({ posts }) => {
             <img
               loading="lazy"
               rel="preload"
-              src={`/images/${post.previewImage}`}
+              src={`assets/images/${post.previewImage}`}
               alt={post.title}
               className=" w-full max-h-full object-cover"
             />
@@ -26,7 +26,7 @@ export const Cards = ({ posts }) => {
           <div className="card-body justify-between text-sm">
             <h1 className="card-title text-primary">{post.title}</h1>
             <p className="indent-0">{post.previewText}</p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-center mt-5">
               <Link
                 to={`/blog/${post.title.replace(/\s+/g, "-").toLowerCase()}`}
                 state={{ post: post }}

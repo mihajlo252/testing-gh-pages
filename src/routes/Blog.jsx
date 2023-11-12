@@ -5,7 +5,7 @@ export const Blog = () => {
   const [fileNameList, setFileNameList] = useState([]);
   
   const getMarkdownMetadata = async () => {
-    const res = await fetch("/markdownMetadata.json");
+    const res = await fetch("assets/markdownMetadata.json");
     const { ...resList } = await res.json();
     return Object.values(resList);
   };
@@ -17,16 +17,15 @@ export const Blog = () => {
 
   useEffect(() => {
     handleMetadata();
-    console.log(fileNameList);
   }, []);
 
   return (
-    <div className="py-20 flex flex-col min-[1450px]:px-44 lg:px-32 md:px-28">
+    <div className="py-44 flex flex-col px-44 max-[1500px]:px-32 max-[800px]:px-16 max-[600px]:px-4">
       <main className="mb-20">
-        <h1 className="text-5xl font-semibold mb-10 text-primary">
+        <h1 className="text-5xl font-semibold mb-10 text-primary max-[700px]:text-4xl">
           Blog name placeholder
         </h1>
-        <p>
+        <p className="max-[700px]:text-[.9rem]">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, quo
           aliquam? Doloremque aliquam molestias ipsam laudantium labore magnam
           beatae molestiae quidem architecto est, autem quaerat eius eveniet

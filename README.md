@@ -1,8 +1,17 @@
-# Neke instrukcije za ubacivanje novih postova
+# Readme 
 
- - U public/markdown ubacis novi markdown file
- - U public/images ubacis preview slike za kartice (Cards)
- - U public/cv ubacis CV .pdf i skrinshot za preview (mora da se imenuju u samom kodu, nalaze se u CvModal i About komponentama)
- - U public/markdownMetadata.json dodajes sve o markdown-u sto je potrebno (title, file, previewImage, previewText, author, date)
+## Assets 
 
- Za sve ovo imas primere koje samo treba da obrises nakon sto ubacis svoje prave fajlove
+- public/markdown contains all markdown files ("blog posts")
+- public/markdownMetadata.json needs to follow the following template 
+  <pre> {<br>    "someMarkdown": {
+            "title": "Some Markdown",
+            "file": "someMarkdown.md",
+            "previewImage": "forrest.jpg",
+            "previewText": "Lorem ipsum...",
+            "author": "Mihajlo Kostić",
+            "date": "2023-08-14"
+        }...
+    }</pre>
+- public/images contains relevant images 
+- public/cv contains the CV and its preview
